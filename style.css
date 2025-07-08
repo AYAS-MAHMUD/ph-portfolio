@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header nav {
+    height: 65px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav h3{
+    font-size: 30px;
+    margin-left: 180px;
+    margin-right: 50px;
+}
+header nav h3 #r{
+    color: rgb(255, 21, 0);
+}
+header nav ul{
+    display: flex;
+    margin-right: 50px;
+    
+}
+#hireMe{
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: rgb(255, 52, 2);
+    color: white;
+    border-radius: 5px;
+}
+header nav ul li{
+    margin-right: 50px;
+}
+header nav ul li a{
+    color: black;
+    font-size: 18px;
+}
+
+/* Main */
+
+/* banner style */
+.banner-grading{
+    font-size: 25px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+.banner-title{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.banner-picture{
+    height: 580px;
+}
+.container{
+    display: flex;
+    margin: 0px 35px 0 200px;
+    justify-content: space-between;
+}
+.box1{
+    max-width: 580px;
+}
+#hire{
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: rgb(255, 52, 2);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+header{
+    background-image: url(/images/developer.png),url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section-description{
+    font-size: 18px;
+    
+}
+/* .section-bg{
+    background-color: #FFF8F3;
+}
+main{
+    max-width: 1140px;
+   
+} */
+.about{
+    background-color: #fbece2 ;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px;
+    margin-top: 80px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+
+}
+.description{
+    font-weight: bold;
+
+}
+.skills-container{
+
+    max-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.skillset-1{
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+    width: 25%;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-align: left;
+}
+.skills-container .skillset-1 img{
+    margin-bottom: 20px;
+}
+.skills-container .skillset-1 h4{
+    margin-bottom: 10px;
+}
+.skills-container .skillset-1 p{
+    margin-bottom: 20px;
+}
+
+/* Resume */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin: 100px;
+    line-height: 23px;
+}
+.resume-container .colom-title{
+    margin-bottom: 15px;
+}
+.resume-container h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.resume-container h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.resume-container p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.resume-container .experience{
+    margin-bottom: 10px;
+}
+.resume h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.resume #cv{
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: rgb(255, 52, 2);
+    color: white;
+    border-radius: 5px;
+    margin-left: 50%;
+    position: relative;
+    top: -50px;
+}
