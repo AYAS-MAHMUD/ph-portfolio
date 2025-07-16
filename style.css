@@ -133,6 +133,7 @@ main{
         margin: 20px;
     }
     .banner-picture{
+        height: 100%;
         width: 100%;
     }
     .imgg{
@@ -140,6 +141,16 @@ main{
     }
     header nav h3{
         margin-left: 20px;
+    }
+    header{
+        background: none;
+    }
+    .box1{
+        text-align: center;
+    }
+    header nav ul{
+        flex-direction: column;
+        gap: 10px;
     }
 }
 @media screen and (min-width:577px) and (max-width:992px) {
