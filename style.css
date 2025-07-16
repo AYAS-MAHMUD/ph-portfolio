@@ -120,9 +120,19 @@ main{
     display: flex;
     gap: 30px;
 }
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 .skillset-1{
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
-    width: 25%;
     padding: 10px 20px;
     background-color: #fff;
     text-align: left;
@@ -143,6 +153,11 @@ main{
     gap: 24px;
     margin: 100px;
     line-height: 23px;
+}
+@media screen and (max-width:576px) {
+    .resume-container{
+        flex-direction:column;
+    }
 }
 .resume-container .colom-title{
     margin-bottom: 15px;
@@ -176,7 +191,10 @@ main{
     background-color: rgb(255, 52, 2);
     color: white;
     border-radius: 5px;
-    margin-left: 50%;
+    margin-left: 25%;
     position: relative;
     top: -50px;
+}
+.hide{
+    display: none;
 }
