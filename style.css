@@ -6,7 +6,6 @@
     list-style: none;
     text-decoration: none;
 }
-
 header nav {
     height: 65px;
     padding: 20px;
@@ -125,6 +124,22 @@ main{
     }
         .about{
         padding: 10px 20px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-picture{
+        width: 100%;
+    }
+    .imgg{
+        width: calc(100% - 40px);
+    }
+    header nav h3{
+        margin-left: 20px;
     }
 }
 @media screen and (min-width:577px) and (max-width:992px) {
